@@ -8,4 +8,8 @@ export class Person {
   constructor(name: string) {
     this._name = name
   }
+
+  public sayMyName() {
+    return this._name
+  }
 }
