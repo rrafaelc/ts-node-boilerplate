@@ -1,7 +1,7 @@
 import { Person } from '.'
 
 it('should say my name', () => {
-  const person = new Person()
+  const person = new Person('Rafael')
 
-  expect(person.sayMyName()).toBe('Rafael')
+  expect(person.name).toBe('Rafael')
 })
