@@ -1,9 +1,7 @@
 import { Person } from '@/index'
 
-it('should say my name', () => {
-  const person = new Person('Rafael')
+it('should say hello world!', () => {
+  const person = new Person()
 
-  expect(person.name).toBe('Rafael')
-
-  expect(person.sayMyName()).toBe('Rafael')
+  expect(person.sayHello()).toBe('Hello World!')
 })
