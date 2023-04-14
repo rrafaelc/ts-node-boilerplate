@@ -1,3 +1,5 @@
+import { Tree } from '@/Tree'
+
 export class Person {
   private _name: string
 
@@ -13,3 +15,5 @@ export class Person {
     return this._name
   }
 }
+
+console.log(new Tree().log())
