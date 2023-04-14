@@ -14,7 +14,7 @@
     "test:push": "yarn test --coverage"
   },
   "keywords": [],
-  "author": "Rafael Costa <rafael.costa.fw@gmail.com>",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.6.0",
